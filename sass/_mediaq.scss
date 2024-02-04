@@ -10,7 +10,10 @@
         }
         ul{
             flex-direction: column;
-            text-align:left;
+            text-align:center;
+        }
+        li{
+            font-size: 0.6em; 
         }
         }
     
@@ -35,6 +38,20 @@
             padding-left: 30px;
         }
     }
+
+    /*main de productos*/
+    .contenedor-grid{
+        display: flex;
+        flex-direction: column;
+   img {
+        width: 60%;
+        height: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-bottom: 15px;
+    }
+
+}
 
     /*main de politicas de devoluciones*/
     .devoluciones{

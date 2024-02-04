@@ -253,14 +253,14 @@ main .contenedor p {
 /*footer*/
 footer {
   background-color: #86C8BC;
-  padding-top: 20px;
+  padding-top: 30px;
 }
 footer img {
   width: 60px;
   margin-top: 0px;
 }
 footer p {
-  text-align: left;
+  text-align: center;
   display: inline-block;
   font-size: larger;
   font-family: "Averia Sans Libre", sans-serif;
@@ -287,6 +287,9 @@ footer iframe {
     flex-direction: column;
     text-align: center;
   }
+  .header li {
+    font-size: 0.6em;
+  }
   /* main index */
   .contenedor {
     flex-direction: column;
@@ -303,6 +306,18 @@ footer iframe {
   .contenedor p {
     margin: 30px;
     padding-left: 30px;
+  }
+  /*main de productos*/
+  .contenedor-grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .contenedor-grid img {
+    width: 60%;
+    height: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 15px;
   }
   /*main de politicas de devoluciones*/
   .devoluciones {
